@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 90px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 25px
+}
+.logo{
+    height: 35px;
+    width: 125px;
+    margin-bottom: 70px;
+}
+.launch{
+    font-size: 45px;
+
+}
+.subscription{
+    font-size: 17px;
+    /* background-color: yellow; */
+
+}
+
+form{
+    display: flex;
+    width: 700px;
+    height: 95px;
+    justify-content: space-between;
+}
+.left{
+    width: 67%;
+    
+}
+.right{
+    width: 30%;
+    
+}
+
+input{
+    width: 100%;
+    height: 67%;
+    border-radius: 30px;
+    
+}
+#submit{
+    cursor: pointer;
+    background: #4D7BF3;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+#Email{
+    padding-left: 30px;
+}
+.error-message{
+    height: 30%;
+    padding-left: 30px;
+    padding-top: 4px;
+    /* font-family: 'Raleway'; */
+    color: rgb(201, 0, 0);
+    display: flex;
+    align-items: flex-end;
+    /* background: yellow; */
+}
+
+.error {
+    border: 2px solid #c90000; /* Add red border for error state */
+  }
+  
+.middle{
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.uiDemo{
+    height: 460px;
+    width: 710px;
+}   
+
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    height: 50%;
+    width: 100%;
+    background: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 43%;
+    padding-right: 43%;
+    
+}
+
+.eachIcon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.copyright{
+    height: 50%;
+    width: 100%;
+    background-color: powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 24px; */
+
+}
